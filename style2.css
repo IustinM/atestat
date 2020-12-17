@@ -34,6 +34,14 @@ a{
      list-style: none;
 
  }
+ .citeste{
+    transition:ease 0.2s;
+}
+.citeste:hover{
+    background-color: white;
+    color: black;
+
+}
  .nav-links li a{
      text-decoration: none;
      font-size: 1.3rem;
@@ -49,6 +57,7 @@ a{
  }
  .burger{
      display: none;
+     cursor: pointer;
  }
  .section1{
      background-image: url(./images/spacex-nave-marte.jpg);
@@ -166,4 +175,29 @@ a{
     color:white;
     font-size: 2rem;
     padding:1rem;
+    transition: 0.5s ease-in-out;
+}
+.icon a:hover{
+    transform: scale(1.1);
+}
+.quiz{
+    min-height: 150px;
+    background-color:rgb(95, 112, 153); 
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-quiz{
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    transition: 0.5s ease-in-out;
+}
+.button-quiz:hover{
+    border: 2px solid black;
+    background-color: transparent;
 }
